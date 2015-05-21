@@ -110,7 +110,8 @@ div.checker {
   div.checker, div.checker span, div.checker input {
     width: 18px;
     height: 18px;
-cursor: pointer;	}
+	}
+	
   div.checker span {
     display: -moz-inline-box;
     display: inline-block;
@@ -126,6 +127,7 @@ cursor: pointer;	}
     -moz-opacity: 0;
     border: none;
     background: none;
+	cursor: pointer;
     display: -moz-inline-box;
     display: inline-block;
     *display: inline;
