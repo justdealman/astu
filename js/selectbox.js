@@ -62,7 +62,7 @@
 							}
 						}
 						$('span.selectbox').css({zIndex: 1}).removeClass('focused');
-						selectbox.css({zIndex: 2});
+						selectbox.css({zIndex: 5});
 						if (dropdown.is(':hidden')) {
 							$('div.dropdown:visible').hide();
 							dropdown.show();
