@@ -499,6 +499,7 @@ button::-moz-focus-inner {
 	margin:0;
 }
 .menu .core > div ul li {
+	width:33.3%;
 	display:table-cell;
 }
 .menu .core > div ul li a {
@@ -1415,6 +1416,7 @@ div.sitemap .core > ul > li > ul > li > ul > li a {
 	position:relative;
 	display:table-cell;
 	background:#0264c9;
+	border-left:1px solid #ffffff;
 	-moz-box-shadow:border-box;
 	-webkit-box-shadow:border-box;
 	box-sizing:border-box;
@@ -1435,7 +1437,6 @@ div.sitemap .core > ul > li > ul > li > ul > li a {
 	vertical-align:middle;
 	text-transform:uppercase;
 	padding:13px 18px 11px;
-	border-left:1px solid #ffffff;
 }
 .menu-inner > div > div > ul > li.active > a {
 	text-decoration:underline;
