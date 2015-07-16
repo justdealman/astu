@@ -5,7 +5,7 @@
 	<meta http-equiv="content-type" content="text/html; charset=utf-8">
 	<meta name="viewport" content="width=1060, user-scalable=yes">
 	<!--<link href="./favicon.ico" rel="shortcut icon" type="image/x-icon">-->
-	<link href="./css/style.css" rel="stylesheet" type="text/css" title="compact">
+	<link href="./css/simple.css" rel="stylesheet" type="text/css" title="compact">
 	<link href="./css/uniform.css" rel="stylesheet" type="text/css" title="compact">
 </head>
 <body>
@@ -70,7 +70,13 @@
 						<li><a href="#">Довузовская подготовка</a></li>
 						<li><a href="#">Доп. возможности</a></li>
 						<li><a href="#">Образовательные программы</a></li>
-						<li><a href="#">Платные&nbsp;услуги</a></li>
+						<li><a href="#">Платные&nbsp;услуги</a>
+							<ul>
+								<li><a href="#">Sub 1</a></li>
+								<li><a href="#">Sub 2</a></li>
+								<li><a href="#">Sub 3</a></li>
+							</ul>
+						</li>
 						<li>
 							<a href="#">Расписание&nbsp;консультаций и экзамены</a>
 							<ul>
@@ -86,269 +92,137 @@
 		<div class="personal-area">
 			<div class="title">
 				<div>
-					<h1>Личный кабинет</h1>
+					<h1>О приеме</h1>
 					<ul>
-						<li><a href="#">Послать заявку</a></li>
-						<li><a href="#">Все заявки</a></li>
-						<li><a href="#">Настройки</a></li>
+						<li class="active"><a href="#">Колледжи</a></li>
+						<li><a href="#">Бакалавриат/специалитет</a></li>
+						<li><a href="#">Магистратура</a></li>
+						<li><a href="#">Аспирантура</a></li>
 					</ul>
 				</div>
 			</div>
-			<div class="main">
+			<div class="about">
 				<div>
-					<div>
-						<div class="item">
-							<p>Поступающий</p>
-							<select>
-								<option>выбрать ООП</option>
-								<option value="46">Бакалавриат/Специалитет</option>
-								<option value="21">Магистратура</option>
-								<option value="22">Аспирантура</option>
-								<option value="23">Колледж</option>
-							</select>
-						</div>
-						<div class="item">
-							<p>Выбор специальности</p>
-							<select>
-								<option></option>
-								<option>Option</option>
-							</select>
-						</div>
-						<div class="item">
-							<p>Форма обучения</p>
-							<select>
-								<option></option>
-								<option>Option</option>
-							</select>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="form">
-				<div class="group">
-					<div>
-						<div class="item">
-							<p class="title">Фамилия</p>
-							<input type="text" value="Климонтов">
-						</div>
-						<div class="item">
-							<p class="title">Имя</p>
-							<input type="text" value="Денис">
-						</div>
-						<div class="item">
-							<p class="title">Отчество</p>
-							<input type="text">
-						</div>
-						<div class="item">
-							<div class="birth">
-								<p>Дата рождения</p>
-								<input type="text" name="date">
-								<span class="calendar"></span>
-							</div>
-							<div class="gender">
-								<p>Пол</p>
-								<select>
-									<option></option>
-									<option>Мужской</option>
-									<option>Женский</option>
-								</select>
-							</div>
-						</div>
-						<div class="item">
-							<p class="title">Гражданство</p>
-							<input type="text">
-						</div>
-					</div>
-				</div>
-				<div class="group">
-					<div>
-						<div class="item">
-							<p class="title">Документ</p>
-							<input type="text">
-						</div>
-						<div class="item">
-							<p class="title">Дата выдачи</p>
-							<div class="birth">
-								<input type="text" name="date">
-								<span class="calendar"></span>
-							</div>
-						</div>
-						<div class="item">
-							<p class="title">Скан документа</p>
-							<input type="text" class="file">
-							<input type="file">
-							<span class="browse">Обзор</span>
-						</div>
-					</div>
-				</div>
-				<div class="group">
-					<div>
-						<div class="item">
-							<p class="title">Место прописки</p>
-							<input type="text">
-						</div>
-						<div class="item">
-							<p class="title">Место проживания</p>
-							<input type="text">
-							<h6 class="same"><input type="checkbox" checked> Совпадает с местом прописки</h6>
-						</div>
-					</div>
-				</div>
-				<div class="group">
-					<div>
-						<div class="item">
-							<p class="title">Телефон</p>
-							<input type="text">
-						</div>
-					</div>
-				</div>
-				<div class="group">
-					<div>
-						<div class="item">
-							<p class="title">Документ об образовании</p>
-							<input type="text">
-						</div>
-						<div class="item">
-							<div class="series">
-								<p>Серия</p>
-								<input type="text">
-							</div>
-							<div class="number">
-								<p>Номер</p>
-								<input type="text">
-							</div>
-						</div>
-						<div class="item">
-							<p class="title">Скан документа</p>
-							<input type="text" class="file">
-							<input type="file">
-							<span class="browse">Обзор</span>
-						</div>
-					</div>
-				</div>
-				<div class="group">
-					<div>
-						<div class="item">
-							<p class="title">Школа</p>
-							<input type="text">
-						</div>
-						<div class="item">
-							<p class="title">Учебное заведение</p>
-							<input type="text">
-						</div>
-						<div class="item">
-							<p class="title">Год оконания школы</p>
-							<div class="birth">
-								<input type="text" name="date">
-								<span class="calendar"></span>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="group">
-					<div>
-						<h2>Результат ЕГЭ</h2>
-						<div class="subgroup">
-							<div class="item">
-								<p class="title">Предмет</p>
-								<input type="text" class="half">
-								<div class="rc">
-									<p>Балл</p>
-									<input type="text">
-								</div>
-							</div>
-							<div class="item">
-								<p class="title">Сертификат</p>
-								<input type="text" class="half">
-								<div class="rc">
-									<p>Год сдачи</p>
-									<select>
-										<option>2001</option>
-										<option>2002</option>
-									</select>
-								</div>
-							</div>
-						</div>
-						<div class="subgroup">
-							<div class="item">
-								<p class="title">Предмет</p>
-								<input type="text" class="half">
-								<div class="rc">
-									<p>Балл</p>
-									<input type="text">
-								</div>
-							</div>
-							<div class="item">
-								<p class="title">Сертификат</p>
-								<input type="text" class="half">
-								<div class="rc">
-									<p>Год сдачи</p>
-									<select>
-										<option>2001</option>
-										<option>2002</option>
-									</select>
-								</div>
-							</div>
-						</div>
-						<div class="subgroup">
-							<div class="item">
-								<p class="title">Предмет</p>
-								<input type="text" class="half">
-								<div class="rc">
-									<p>Балл</p>
-									<input type="text">
-								</div>
-							</div>
-							<div class="item">
-								<p class="title">Сертификат</p>
-								<input type="text" class="half">
-								<div class="rc">
-									<p>Год сдачи</p>
-									<select>
-										<option>2001</option>
-										<option>2002</option>
-									</select>
-								</div>
-							</div>
-						</div>
-						<h6 class="add"><span><em>Добавить еще один экзамен ЕГЭ</em></span></h6>
-					</div>
-				</div>
-				<div class="group">
-					<div>
-						<div class="item">
-							<p class="title">Изучаемый язык</p>
-							<input type="text" class="half">
-						</div>
-						<div class="item">
-							<ul class="list">
-								<li><input type="checkbox" checked> Необходимость в общежитии</li>
-								<li><input type="checkbox"> Служба в армии</li>
-								<li><input type="checkbox"> Победы в олимпиадах</li>
+					<ul>
+						<li class="active">
+							<a href="#">Правила приема</a>
+							<ul>
+								<li><a href="#">Условия приема</a></li>
+								<li><a href="#">Минимальное количество баллов</a></li>
+								<li><a href="#">Особые парва и преимущества</a></li>
+								<li><a href="#">Порядок учета рзультатов индивидуальных достижений</a></li>
+								<li><a href="#">Особенности проведения вступительных испытаний для лиц с ОВЗ</a></li>
+								<li><a href="#">Правила подачи и рассмотрения аппеляций</a></li>
+								<li><a href="#">Количество мест для приема</a></li>
 							</ul>
-						</div>
-						<div class="item">
-							<p class="title">Доп. информация</p>
-							<textarea cols="80" rows="5" class="half"></textarea>
-						</div>
-						<div class="item">
-							<p class="title">Волна</p>
-							<select>
-								<option>До 5 июля (без ЭГЕ, направлять в РЦОИ)</option>
-								<option>До 15 июля (без ЭГЕ, направлять в РЦОИ)</option>
-							</select>
-						</div>
-						<div class="item">
-							<p class="title">Дата подачи завяления</p>
-							<div class="birth">
-								<input type="text" name="date">
-								<span class="calendar"></span>
-							</div>
+						</li>
+						<li>
+							<a href="#">Проведение приема</a>
+							<ul>
+								<li><a href="#">1</a></li>
+								<li><a href="#">2</a></li>
+								<li><a href="#">3</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="#">Контактная информация для представления документов</a>
+							<ul>
+								<li><a href="#">1</a></li>
+								<li><a href="#">2</a></li>
+								<li><a href="#">3</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="#">Бланки заявлений</a>
+							<ul>
+								<li><a href="#">1</a></li>
+								<li><a href="#">2</a></li>
+								<li><a href="#">3</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="#">Списки поступивших</a>
+							<ul>
+								<li><a href="#">1</a></li>
+								<li><a href="#">2</a></li>
+								<li><a href="#">3</a></li>
+							</ul>
+						</li>
+					</ul>
+					<div>
+						<div>
+							<h2>Порог положительной оценки по вступительным испытаниям</h2>
+							<h3>В настоящее время по каждому предмету ЕГЭ установлено минимальное количество баллов в следующих значениях:</h3>
+							<table>
+								<thead>
+									<tr>
+										<th>Направление подготовки (специальность)</th>
+										<th>Предмет</th>
+										<th>Оценка по 100-балльной шкале</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<th rowspan="10">Все направления подготовки и специальности, кроме «Программная инженерия», «Информационная безопасность», «Информатика и вычислительная техника»</th>
+										<td>Русский язык</td>
+										<td>36</td>
+									</tr>
+									<tr>
+										<td>Математика</td>
+										<td>27</td>
+									</tr>
+									<tr>
+										<td>Физика</td>
+										<td>36</td>
+									</tr>
+									<tr>
+										<td>Обществознание</td>
+										<td>42</td>
+									</tr>
+									<tr>
+										<td>История</td>
+										<td>32</td>
+									</tr>
+									<tr>
+										<td>Химия</td>
+										<td>36</td>
+									</tr>
+									<tr>
+										<td>Иностранный язык</td>
+										<td>22</td>
+									</tr>
+									<tr>
+										<td>Литература</td>
+										<td>32</td>
+									</tr>
+									<tr>
+										<td>Композиция</td>
+										<td>30</td>
+									</tr>
+									<tr>
+										<td>Рисунок и черчение</td>
+										<td>30</td>
+									</tr>
+								</tbody>
+								<tbody>
+									<tr>
+										<th rowspan="3">«Программная инженерия»,<br> «Информационная безопасность»,<br> «Информатика и вычислительная техника»</th>
+										<td>Математика</td>
+										<td>40</td>
+									</tr>
+									<tr>
+										<td>Физика</td>
+										<td>40</td>
+									</tr>
+									<tr>
+										<td>Обществознание</td>
+										<td>40</td>
+									</tr>
+								</tbody>
+							</table>
+							<h6>Для поступающих в магистратуру минимальный балл по комплексному экзамену — 25 баллов для всех направлений подготовки.</h6>
 						</div>
 					</div>
-				</div>
-				<div class="submit">
-					<button class="yellow"><span><em>Подать заявление</em></span></button>
 				</div>
 			</div>
 		</div>

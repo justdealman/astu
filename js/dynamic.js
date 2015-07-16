@@ -328,6 +328,9 @@ $(document).ready(function() {
 			event.preventDefault();
 		});
 	}
+	$('.item select').on('change', function() {
+		alert($(this).val());
+	});
 });
 $(window).resize(function() {
 	if ( $('.navigation').length > 0 ) {
